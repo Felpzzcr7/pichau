@@ -8,18 +8,23 @@
 }
 
 .carrossel{
- background-color: black;
-height: 400px;
-display: flex;
-justify-content: center;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
 }
+
 
 #principal {
     height: 430px;
-    background-color: red;
     width: 800px;
-    position: absolute;
+    background-color: red;
+    position: relative;
+    margin-top: 30px;
 }
+
 
 .preferencia{
     margin-top: -4px;
@@ -63,4 +68,8 @@ justify-content: center;
     height: 200px;
     width: 250px;
     background-color: white;
+}
+.setinha{ 
+    width: 40px;
+    height: 40px;
 }
