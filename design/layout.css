@@ -1,10 +1,20 @@
+h1{
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .sac{
-    background-color: gray;
+    background-color: #303030;
     display: flex;
     height: 40px;
     align-items: center;
     color: rgb(0, 0, 0);
     justify-content: flex-end;
+    color: #ffffff;
 }
 
 .carrossel{
@@ -16,22 +26,25 @@
     position: relative;
 }
 
-
 #principal {
     height: 430px;
-    width: 800px;
-    background-color: red;
+    width: 40%;
     position: relative;
     margin-top: 30px;
 }
 
+.secundario {
+    height: 400px;
+    width: 30%;
+    position: relative;
+}
 
 .preferencia{
     margin-top: -4px;
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
-    background-color: gray;
+    background-color:#303030;
     height: 200px;
 }
 
@@ -40,36 +53,49 @@
     text-align: left;     
     margin-left: 20px;
     font-size: 30px;
+    margin-top: 5px;
+    color: #ffffff;
 }
 
 
 .escolha{
+    border-radius: 2%;
     font-size: 20px;
     display: flex;
     height: 100px;
     width: 250px;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    align-items: flex-start;
+    background-color: #c2281e;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
+    color: #ffffff;
 }
 
 .compras{
     display: flex;
     font-size: 30px;
-    height: 280px;
-    background-color: gray;
+    height: 400px;
+    background-color: #303030 ;
     border: 1px groove rgb(39, 39, 39);
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .item{
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     background-color: white;
 }
 .setinha{ 
     width: 40px;
     height: 40px;
+}
+
+.logo{
+    border-radius: 100%;
+}
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
 }
