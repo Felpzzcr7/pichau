@@ -57,6 +57,9 @@ body {
     color: #ffffff;
 }
 
+#inverte{
+    background-color:#e90313;
+}
 
 .escolha{
     border-radius: 2%;
@@ -64,8 +67,8 @@ body {
     display: flex;
     height: 100px;
     width: 250px;
-    background-color: #c2281e;
-    justify-content: space-between;
+    background-color:#202020;
+    justify-content: space-around;
     align-items: center;
     margin-top: 30px;
     color: #ffffff;
