@@ -74,26 +74,35 @@ body {
 
 
 
-.compras{
+.compras-container {
+    position: relative;
     display: flex;
-    font-size: 30px;
-    height: 600px;
-    background-color: #303030 ;
-    border: 1px groove rgb(39, 39, 39);
-    flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    background-color: #303030;
+    height: 400px;
 }
 
-.item{
+.compras {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.item {
+    min-width: 300px;
     height: 300px;
-    width: 300px;
     background-color: white;
-}
-.setinha{ 
-    width: 40px;
-    height: 40px;
+    flex-shrink: 0;
 }
 
+.item img{
+    height: 100%;
+    width: 100%;
+}
 .logo{
     border-radius: 100%;
 }
@@ -122,3 +131,22 @@ button:hover{
 
 }
 
+footer{
+    background-color: #303030;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.btesquerda{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.btdireita{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+
+}
